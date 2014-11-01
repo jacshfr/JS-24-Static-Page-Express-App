@@ -1,0 +1,23 @@
+{
+  "name": "JS-24-Static-Page-Express-App",
+  "version": "0.0.1",
+  "description": "sample static file server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "jquery": "~2.1.1"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacshfr/JS-24-Static-Page-Express-App.git"
+  },
+  "author": "Jacob Shafer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacshfr/JS-24-Static-Page-Express-App/issues"
+  },
+  "homepage": "https://github.com/jacshfr/JS-24-Static-Page-Express-App"
+}
