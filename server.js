@@ -1,10 +1,13 @@
-var express = require('express');
-var app     = express();
-var port    = process.env.PORT || 4000;
+(function() {
+  'use strict';
 
-app.use(express.static(__dirname + '/public'));
+  var express = require('express');
+  var app     = express();
+  var port    = process.env.PORT || 4000;
 
+  app.use(express.static(__dirname + '/public'));
 
+  app.listen(port);
+  console.log('Listening on ' + port);
 
-app.listen(port);
-console.log('Listening on ' + port);
+}());
